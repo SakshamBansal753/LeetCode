@@ -1,0 +1,45 @@
+# [109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)
+
+![Difficulty: Medium](https://img.shields.io/badge/Difficulty-Medium-orange)
+![Topics](https://img.shields.io/badge/Topics-Linked%20List-informational)
+
+## 📝 Problem Description
+
+<p>Given the <code>head</code> of a singly linked list where elements are sorted in <strong>ascending order</strong>, convert <em>it to a </em><span data-keyword="height-balanced"><strong><em>height-balanced</em></strong></span> <em>binary search tree</em>.</p>
+
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2020/08/17/linked.jpg" style="width: 500px; height: 388px;" />
+<pre>
+<strong>Input:</strong> head = [-10,-3,0,5,9]
+<strong>Output:</strong> [0,-3,9,-10,null,5]
+<strong>Explanation:</strong> One possible answer is [0,-3,9,-10,null,5], which represents the shown height balanced BST.
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> head = []
+<strong>Output:</strong> []
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li>The number of nodes in <code>head</code> is in the range <code>[0, 2 * 10<sup>4</sup>]</code>.</li>
+	<li><code>-10<sup>5</sup> &lt;= Node.val &lt;= 10<sup>5</sup></code></li>
+</ul>
+
+
+---
+
+## 📊 Submission Details
+
+- **Submitted On:** 3/27/2026, 10:18:06 PM
+- **Language:** `Linked List`, `Divide And Conquer`, `Tree`, `Binary Search Tree`, `Binary Tree`
+- **Runtime:** 3 ms 
+- **Memory:** 33.2 MB 
+
+---
+*Automatically pushed using **[LeetCode GitHub Auto-Sync](https://github.com)**.*
