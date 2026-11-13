@@ -1,0 +1,51 @@
+# [107. Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
+
+![Difficulty: Medium](https://img.shields.io/badge/Difficulty-Medium-orange)
+![Topics](https://img.shields.io/badge/Topics-Tree-informational)
+
+## 📝 Problem Description
+
+<p>Given the <code>root</code> of a binary tree, return <em>the bottom-up level order traversal of its nodes&#39; values</em>. (i.e., from left to right, level by level from leaf to root).</p>
+
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2021/02/19/tree1.jpg" style="width: 277px; height: 302px;" />
+<pre>
+<strong>Input:</strong> root = [3,9,20,null,null,15,7]
+<strong>Output:</strong> [[15,7],[9,20],[3]]
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> root = [1]
+<strong>Output:</strong> [[1]]
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> root = []
+<strong>Output:</strong> []
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li>The number of nodes in the tree is in the range <code>[0, 2000]</code>.</li>
+	<li><code>-1000 &lt;= Node.val &lt;= 1000</code></li>
+</ul>
+
+
+---
+
+## 📊 Submission Details
+
+- **Submitted On:** 5/8/2026, 1:57:06 AM
+- **Language:** `Tree`, `Breadth First Search`, `Binary Tree`
+- **Runtime:** 0 ms 
+- **Memory:** 16.1 MB 
+
+---
+*Automatically pushed using **[LeetCode GitHub Auto-Sync](https://github.com)**.*
