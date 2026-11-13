@@ -1,0 +1,65 @@
+# [171. Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)
+
+![Difficulty: Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+![Topics](https://img.shields.io/badge/Topics-Math-informational)
+
+## 📝 Problem Description
+
+<p>Given a string <code>columnTitle</code> that represents the column title as appears in an Excel sheet, return <em>its corresponding column number</em>.</p>
+
+<p>For example:</p>
+
+<pre>
+A -&gt; 1
+B -&gt; 2
+C -&gt; 3
+...
+Z -&gt; 26
+AA -&gt; 27
+AB -&gt; 28 
+...
+</pre>
+
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+
+<pre>
+<strong>Input:</strong> columnTitle = &quot;A&quot;
+<strong>Output:</strong> 1
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> columnTitle = &quot;AB&quot;
+<strong>Output:</strong> 28
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> columnTitle = &quot;ZY&quot;
+<strong>Output:</strong> 701
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>1 &lt;= columnTitle.length &lt;= 7</code></li>
+	<li><code>columnTitle</code> consists only of uppercase English letters.</li>
+	<li><code>columnTitle</code> is in the range <code>[&quot;A&quot;, &quot;FXSHRXW&quot;]</code>.</li>
+</ul>
+
+
+---
+
+## 📊 Submission Details
+
+- **Submitted On:** 3/4/2026, 5:30:25 PM
+- **Language:** `Math`, `String`
+- **Runtime:** 0 ms 
+- **Memory:** 8.6 MB 
+
+---
+*Automatically pushed using **[LeetCode GitHub Auto-Sync](https://github.com)**.*
