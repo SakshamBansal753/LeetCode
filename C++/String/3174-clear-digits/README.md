@@ -1,0 +1,67 @@
+# [3174. Clear Digits](https://leetcode.com/problems/clear-digits/)
+
+![Difficulty: Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+![Topics](https://img.shields.io/badge/Topics-String-informational)
+
+## 📝 Problem Description
+
+<p>You are given a string <code>s</code>.</p>
+
+<p>Your task is to remove <strong>all</strong> digits by doing this operation repeatedly:</p>
+
+<ul>
+	<li>Delete the <em>first</em> digit and the <strong>closest</strong> <b>non-digit</b> character to its <em>left</em>.</li>
+</ul>
+
+<p>Return the resulting string after removing all digits.</p>
+
+<p><strong>Note</strong> that the operation <em>cannot</em> be performed on a digit that does not have any non-digit character to its left.</p>
+
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+
+<div class="example-block">
+<p><strong>Input:</strong> <span class="example-io">s = &quot;abc&quot;</span></p>
+
+<p><strong>Output:</strong> <span class="example-io">&quot;abc&quot;</span></p>
+
+<p><strong>Explanation:</strong></p>
+
+<p>There is no digit in the string.<!-- notionvc: ff07e34f-b1d6-41fb-9f83-5d0ba3c1ecde --></p>
+</div>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<div class="example-block">
+<p><strong>Input:</strong> <span class="example-io">s = &quot;cb34&quot;</span></p>
+
+<p><strong>Output:</strong> <span class="example-io">&quot;&quot;</span></p>
+
+<p><strong>Explanation:</strong></p>
+
+<p>First, we apply the operation on <code>s[2]</code>, and <code>s</code> becomes <code>&quot;c4&quot;</code>.</p>
+
+<p>Then we apply the operation on <code>s[1]</code>, and <code>s</code> becomes <code>&quot;&quot;</code>.</p>
+</div>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>1 &lt;= s.length &lt;= 100</code></li>
+	<li><code>s</code> consists only of lowercase English letters and digits.</li>
+	<li>The input is generated such that it is possible to delete all digits.</li>
+</ul>
+
+
+---
+
+## 📊 Submission Details
+
+- **Submitted On:** 3/28/2025, 12:21:07 AM
+- **Language:** `String`, `Stack`, `Simulation`
+- **Runtime:** 4 ms 
+- **Memory:** 9.1 MB 
+
+---
+*Automatically pushed using **[LeetCode GitHub Auto-Sync](https://github.com)**.*
