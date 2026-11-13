@@ -1,0 +1,71 @@
+# [3697. Compute Decimal Representation](https://leetcode.com/problems/compute-decimal-representation/)
+
+![Difficulty: Easy](https://img.shields.io/badge/Difficulty-Easy-brightgreen)
+![Topics](https://img.shields.io/badge/Topics-Array-informational)
+
+## 📝 Problem Description
+
+<p>You are given a <strong>positive</strong> integer <code>n</code>.</p>
+
+<p>A positive integer is a <strong>base-10 component</strong> if it is the product of a single digit from 1 to 9 and a non-negative power of 10. For example, 500, 30, and 7 are <strong>base-10 components</strong>, while 537, 102, and 11 are not.</p>
+
+<p>Express <code>n</code> as a sum of <strong>only</strong> base-10 components, using the <strong>fewest</strong> base-10 components possible.</p>
+
+<p>Return an array containing these <strong>base-10 components</strong> in <strong>descending</strong> order.</p>
+
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+
+<div class="example-block">
+<p><strong>Input:</strong> <span class="example-io">n = 537</span></p>
+
+<p><strong>Output:</strong> <span class="example-io">[500,30,7]</span></p>
+
+<p><strong>Explanation:</strong></p>
+
+<p>We can express 537 as <code>500 + 30 + 7</code>. It is impossible to express 537 as a sum using fewer than 3 base-10 components.</p>
+</div>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<div class="example-block">
+<p><strong>Input:</strong> <span class="example-io">n = 102</span></p>
+
+<p><strong>Output:</strong> <span class="example-io">[100,2]</span></p>
+
+<p><strong>Explanation:</strong></p>
+
+<p>We can express 102 as <code>100 + 2</code>. 102 is not a base-10 component, which means 2 base-10 components are needed.</p>
+</div>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<div class="example-block">
+<p><strong>Input:</strong> <span class="example-io">n = 6</span></p>
+
+<p><strong>Output:</strong> <span class="example-io">[6]</span></p>
+
+<p><strong>Explanation:</strong></p>
+
+<p>6 is a base-10 component.</p>
+</div>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>1 &lt;= n &lt;= 10<sup>9</sup></code></li>
+</ul>
+
+
+---
+
+## 📊 Submission Details
+
+- **Submitted On:** 1/11/2026, 9:53:33 PM
+- **Language:** `Array`, `Math`
+- **Runtime:** 1 ms 
+- **Memory:** 9.7 MB 
+
+---
+*Automatically pushed using **[LeetCode GitHub Auto-Sync](https://github.com)**.*
